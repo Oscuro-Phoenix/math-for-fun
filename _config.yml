@@ -3,7 +3,7 @@ author: Oscuro-Phoenix
 subtitle: A website to keep a register of the most interesting math problems I've encountered.
 
 url: "/"
-baseurl: "/"
+baseurl: "/math-for-fun"
 
 footer_only_homepage: true
 footer_url: "https://github.com/Oscuro-Phoenix"
