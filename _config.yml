@@ -9,7 +9,7 @@ footer_only_homepage: true
 footer_url: "https://github.com/oscuro-phoenix"
 footer_text: "Repo"
 
-profile-picture: assets/profile.png
+profile-picture: assets/profile.jpg
 favicon_location: assets/favicon.ico
 
 permalink: /:year-:month-:day-:title/
