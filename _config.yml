@@ -6,8 +6,8 @@ url: "https://oscuro-phoenix.github.io"
 baseurl: "/math-for-fun"
 
 footer_only_homepage: true
-footer_url: "https://github.com/pro-panda"
-footer_text: "Theme by pro-panda"
+footer_url: "https://github.com/oscuro-phoenix"
+footer_text: "Repo"
 
 profile-picture: assets/profile.png
 favicon_location: assets/favicon.ico
