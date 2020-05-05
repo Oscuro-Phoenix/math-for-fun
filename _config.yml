@@ -7,7 +7,7 @@ baseurl: "/math-for-fun"
 
 footer_only_homepage: true
 footer_url: "https://github.com/oscuro-phoenix"
-footer_text: "Repo"
+footer_text: "GitHub Repo"
 
 profile-picture: assets/profile.jpg
 favicon_location: assets/favicon.ico
@@ -20,5 +20,5 @@ sass:
 navbar:
  - name: "About"
    link: "about"
- - name: "LinkedIn Profile"
+ - name: "LinkedIn"
    absolute-link: "https://www.linkedin.com/in/shakul-pathak-402a6998/"
