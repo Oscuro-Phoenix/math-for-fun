@@ -2,8 +2,8 @@ title: Math-For-Fun
 author: oscuro-phoenix
 subtitle: A register of some of the interesting mathematical problems.
 
-url: "/"
-baseurl: "/"
+url: "https://oscuro-phoenix.github.io"
+baseurl: "/math-for-fun"
 
 footer_only_homepage: true
 footer_url: "https://github.com/pro-panda"
