@@ -14,7 +14,7 @@ I love Problem Solving as a whole and don’t seem to have a knack for solving s
 I'm currently exploring  Microfluidics, Fluid Flow Simulation as well as Statistical Mechanics.
 
 
-### Life Advice
+### Favourite Quote
 
 “Look up at the stars and not down at your feet. Try to make sense of what you see, and wonder about what makes the universe exist. Be curious.”
 
