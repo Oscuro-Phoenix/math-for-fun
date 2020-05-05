@@ -20,5 +20,5 @@ sass:
 navbar:
  - name: "About"
    link: "about"
- - name: "Resume"
-   absolute-link: ""
+ - name: "LinkedIn Profile"
+   absolute-link: "https://www.linkedin.com/in/shakul-pathak-402a6998/"
