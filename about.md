@@ -5,7 +5,7 @@ title: About Me
 
 <img class="profile-picture" src="{{site.baseurl}}/{{site.profile-picture}}">
 
-Hi, I'm Shakul. I'm a Pre-Final Year Chemical Engineering undergrad at IIT Kharagpur. 
+Hi, I'm Shakul. I'm a Final Year Chemical Engineering undergrad at IIT Kharagpur.
 
 As a Person, I’m really friendly and you can ping me for genuine problems or a friendly chat.
 
