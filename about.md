@@ -12,7 +12,8 @@ As a Person, I’m really friendly and you can ping me for genuine problems or a
 
 I love Problem Solving as a whole and don’t seem to have a knack for solving specific types of problems. It’s definitely a weakness as well as a strength!
 
-I'm currently exploring  Microfluidics, Fluid Flow Simulation as well as Statistical Mechanics. Most of my interests lie in modeling and simulation of dynamic systems.
+I have previously worked on project that have involved Microfluidics, Fluid Flow Simulation as well as Statistical Mechanics. Most of my interests lie in modeling and simulation of dynamic systems. I am excited to explore my research interests as a Ph.D. student in the Department of Chemical Engineering at the Massachusetts
+Institute of Technology (MIT).
 
 
 ### Favourite Quote
@@ -23,7 +24,7 @@ I'm currently exploring  Microfluidics, Fluid Flow Simulation as well as Statist
 
 
 ### Contact Me
-Email: shakulpathak.iitkgp@gmail.com
+Email: [mailto](shakulpathak.iitkgp@gmail.com)
 
 
 # Sourim Banerjee
@@ -36,8 +37,8 @@ I am interested in solving mathematical problems of all domains and understandin
 
 Apart from the usual academic chores, I spend time learning the harmonica, solving Rubik's cube or playing chess. In my leisure time, I like to read a book or watch a movie.
 
-I am an incoming Graduate student at Purdue university looking forward to work on the dynamics of electrochemical systems and battery. I am always eager to have a friendly discussion about any genuine problem. Please feel free to contact me anytime
+I am an incoming Graduate student at Purdue University and I'm looking forward to work on the dynamics of electrochemical systems and battery. I am always eager to have a friendly discussion about any genuine problem. Please feel free to contact me anytime
 
 
 ### Contact Me
-Email: sourim.b99@gmail.com
+Email: [mailto](sourim.b99@gmail.com)
