@@ -4,7 +4,7 @@ title: About the authors
 ---
 # Shakul Pathak
 
-<img class="profile-picture" src="{{site.baseurl}}/{{site.profile-picture}}" style="width:30%">
+<img class="profile-picture" src="{{site.baseurl}}/{{site.profile-picture}}" style="width:30%;border-style:groove">
 
 Hi, I'm Shakul. I'm a Final Year Chemical Engineering undergrad at IIT Kharagpur.
 
@@ -31,7 +31,7 @@ LinkedIn : [Shakul Pathak](https://www.linkedin.com/in/shakul-pathak/)
 
 # Sourim Banerjee
 
-<img class="profile-picture" src="../assets/profile2.jpeg" style="width:30%">
+<img class="profile-picture" src="../assets/profile2.jpeg" style="width:30%;border-style:groove">
 
 Hello, I am Sourim, currently a final year Chemical Engineering undergraduate student at IIT Kharagpur.
 
