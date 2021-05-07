@@ -24,7 +24,7 @@ Institute of Technology (MIT).
 
 
 ### Contact Me
-Email: [mailto](shakulpathak.iitkgp@gmail.com)
+Email: [shakulpathak.iitkgp@gmail.com](mailto:shakulpathak.iitkgp@gmail.com)
 
 
 # Sourim Banerjee
@@ -41,4 +41,4 @@ I am an incoming Graduate student at Purdue University and I'm looking forward t
 
 
 ### Contact Me
-Email: [mailto](sourim.b99@gmail.com)
+Email: [sourim.b99@gmail.com](mailto:sourim.b99@gmail.com)
