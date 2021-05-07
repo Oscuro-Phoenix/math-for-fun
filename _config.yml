@@ -18,7 +18,5 @@ sass:
     sass_dir: css
 
 navbar:
- - name: "About"
+ - name: "About the Authors"
    link: "about"
- - name: "LinkedIn"
-   absolute-link: "https://www.linkedin.com/in/shakul-pathak-402a6998/"
