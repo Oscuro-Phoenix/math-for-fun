@@ -2,6 +2,7 @@
 layout: default
 title: About the authors
 ---
+#Shakul Pathak
 
 <img class="profile-picture" src="{{site.baseurl}}/{{site.profile-picture}}">
 
@@ -25,7 +26,9 @@ I'm currently exploring  Microfluidics, Fluid Flow Simulation as well as Statist
 Email: shakulpathak.iitkgp@gmail.com
 
 
-<img class="profile-picture" src="./assets/profile2.jpeg">
+#Sourim Banerjee
+
+<img class="profile-picture" src="../assets/profile2.jpeg">
 
 Hello, I am Sourim, currently a final year Chemical Engineering undergraduate student at IIT Kharagpur.
 
