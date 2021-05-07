@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Me
+title: About the authors
 ---
 
 <img class="profile-picture" src="{{site.baseurl}}/{{site.profile-picture}}">
@@ -23,3 +23,18 @@ I'm currently exploring  Microfluidics, Fluid Flow Simulation as well as Statist
 
 ### Contact Me
 Email: shakulpathak.iitkgp@gmail.com
+
+
+<img class="profile-picture" src="./assets/profile2.jpeg">
+
+Hello, I am Sourim, currently a final year Chemical Engineering undergraduate student at IIT Kharagpur.
+
+I am interested in solving mathematical problems of all domains and understanding them from a not so conventional perspective. I love to explore geometry, calculus, number theory, statistics and sometimes their applications to the physical world.
+
+Apart from the usual academic chores, I spend time learning the harmonica, solving Rubik's cube or playing chess. In my leisure time, I like to read a book or watch a movie.
+
+I am an incoming Graduate student at Purdue university looking forward to work on the dynamics of electrochemical systems and battery. I am always eager to have a friendly discussion about any genuine problem. Please feel free to contact me anytime
+
+
+### Contact Me
+Email: sourim.b99@gmail.com
