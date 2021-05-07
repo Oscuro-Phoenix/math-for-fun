@@ -2,7 +2,7 @@
 layout: default
 title: About the authors
 ---
-#Shakul Pathak
+# Shakul Pathak
 
 <img class="profile-picture" src="{{site.baseurl}}/{{site.profile-picture}}">
 
@@ -26,7 +26,7 @@ I'm currently exploring  Microfluidics, Fluid Flow Simulation as well as Statist
 Email: shakulpathak.iitkgp@gmail.com
 
 
-#Sourim Banerjee
+# Sourim Banerjee
 
 <img class="profile-picture" src="../assets/profile2.jpeg">
 
