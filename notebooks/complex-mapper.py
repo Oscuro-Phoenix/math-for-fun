@@ -169,7 +169,6 @@ fig.canvas.mpl_connect('button_press_event', button_press_callback)
 fig.canvas.mpl_connect('button_release_event', button_release_callback)
 fig.canvas.mpl_connect('motion_notify_event', motion_notify_callback)
 
-plt.show(block=False)
-plt.show(block=False)
+plt.show()
 
 
