@@ -1,6 +1,6 @@
 # Math-For-Fun
 
-A simple website to keep track of ineresting math problems!
+A simple website to keep track of interesting math problems!
 
 ## Credits
 Parchment is inspired from the resume theme
