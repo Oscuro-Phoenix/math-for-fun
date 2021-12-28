@@ -6,15 +6,12 @@ title: About the authors
 
 <img class="profile-picture" src="{{site.baseurl}}/{{site.profile-picture}}" style="width:30%;border-style:groove">
 
-Hi, I'm Shakul. I'm a Final Year Chemical Engineering undergrad at IIT Kharagpur.
+Hi, I'm Shakul! I'm a ChemE PhD student at MIT.
 
-As a Person, I’m really friendly and you can ping me for genuine problems or a friendly chat.
+As a Person, I’m really friendly and feel free to connect on LinkedIn for anything between a friend chat and work.
 
-I love Problem Solving as a whole and don’t seem to have a knack for solving specific types of problems. It’s definitely a weakness as well as a strength!
-
-I have previously worked on project that have involved Microfluidics, Fluid Flow Simulation as well as Statistical Mechanics. Most of my interests lie in modeling and simulation of dynamic systems. I am excited to explore my research interests as a Ph.D. student in the Department of Chemical Engineering at the Massachusetts
-Institute of Technology (MIT).
-
+I love Problem Solving as a whole and don’t seem to have a knack for solving specific types of problems. I am fascinated by how fundamental mathematics binds itself into
+some of the most puzzling problems in engineering, physics and computer science. Through this blog, I try to share this fascination with the world.
 
 ### Favourite Quote
 
