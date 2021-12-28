@@ -8,7 +8,7 @@ title: About the authors
 
 Hi, I'm Shakul! I'm a ChemE PhD student at MIT.
 
-As a Person, I’m really friendly and feel free to connect on LinkedIn for anything between a friend chat and work.
+As a Person, I’m really friendly and feel free to connect on LinkedIn for anything between a friendly chat and work.
 
 I love Problem Solving as a whole and don’t seem to have a knack for solving specific types of problems. I am fascinated by how fundamental mathematics binds itself into
 some of the most puzzling problems in engineering, physics and computer science. Through this blog, I try to share this fascination with the world.
