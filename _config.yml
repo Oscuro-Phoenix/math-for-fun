@@ -22,3 +22,5 @@ navbar:
    link: "about"
  - name: "Posts"
    absolute-link: "https://oscuro-phoenix.github.io/math-for-fun"
+ - icon: fontawesome/brands/linkedin
+   link: "https://www.linkedin.com/company/math-for-fun/"
