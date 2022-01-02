@@ -5,7 +5,7 @@ subtitle: Online Compilation of Interesting Problems
 url: "https://oscuro-phoenix.github.io"
 baseurl: "/math-for-fun"
 
-footer_only_homepage: false
+footer_only_homepage: true
 footer_url: "https://github.com/oscuro-phoenix"
 footer_text: "GitHub Repo"
 
