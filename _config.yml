@@ -6,8 +6,6 @@ url: "https://oscuro-phoenix.github.io"
 baseurl: "/math-for-fun"
 
 footer_only_homepage: true
-footer_url: "https://github.com/oscuro-phoenix"
-footer_text: "GitHub Repo"
 
 profile-picture: assets/profile.jpg
 favicon_location: assets/favicon.ico
@@ -22,5 +20,5 @@ navbar:
    link: "about"
  - name: "Posts"
    absolute-link: "https://oscuro-phoenix.github.io/math-for-fun"
- - icon: fontawesome/brands/linkedin
-   link: "https://www.linkedin.com/company/math-for-fun/"
+ - name: "Follow Us"
+   absolute-link: "https://www.linkedin.com/company/math-for-fun/"
