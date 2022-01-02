@@ -5,9 +5,13 @@ subtitle: Online Compilation of Interesting Problems
 url: "https://oscuro-phoenix.github.io"
 baseurl: "/math-for-fun"
 
-footer_only_homepage: true
-footer_url: "https://github.com/oscuro-phoenix"
-footer_text: "GitHub Repo"
+footer_only_homepage: false
+footer_url: "https://www.linkedin.com/company/math-for-fun/"
+footer_text: "Follow us on LinkedIn"
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/math-for-fun/
 
 profile-picture: assets/profile.jpg
 favicon_location: assets/favicon.ico
