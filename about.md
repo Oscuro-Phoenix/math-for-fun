@@ -42,7 +42,7 @@ Please feel free to contact me via email or linkedIn for a friendly discussion o
 
 “Learn the difference between knowing the name of something and knowing something.”
 
-    -Richard Feynman
+ - Richard P. Feynman
 
 ### Contact Me
 Email: [sourim.banerjee10@gmail.com](mailto:sourim.banerjee10@gmail.com)
