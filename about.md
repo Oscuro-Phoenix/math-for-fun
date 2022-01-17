@@ -30,17 +30,22 @@ LinkedIn : [Shakul Pathak](https://www.linkedin.com/in/shakul-pathak/)
 
 <img class="profile-picture" src="../assets/profile2.jpeg" style="width:30%;border-style:groove">
 
-Hello, I am Sourim, currently a final year Chemical Engineering undergraduate student at IIT Kharagpur.
+Hello, I am Sourim, currently a ME PhD student at Purdue University.
 
-I am interested in solving mathematical problems of all domains and understanding them from a not so conventional perspective. I love to explore geometry, calculus, number theory, statistics and sometimes their applications to the physical world.
+I am interested in solving mathematical problems from all domains and try to explain them from different perspectives. I see this blog as a platform to reach out a broader audience interested in basic mathematics and engineering puzzle problems.
 
-Apart from the usual academic chores, I spend time learning the harmonica, solving Rubik's cube or playing chess. In my leisure time, I like to read a book or watch a movie.
+Apart from the usual academic chores and research, I spend time learning the harmonica, reading a book or watching a movie.
 
-I am an incoming Graduate student at Purdue University and I'm looking forward to work on the dynamics of electrochemical systems and battery. I am always eager to have a friendly discussion about any genuine problem. Please feel free to contact me anytime
+Please feel free to contact me via email or linkedIn for a friendly discussion on a problem or in general.
 
+### Favourite Quote
+
+“Learn the difference between knowing the name of something and knowing something.”
+
+    -Richard Feynman
 
 ### Contact Me
-Email: [sourim.b99@gmail.com](mailto:sourim.b99@gmail.com)
+Email: [sourim.banerjee10@gmail.com](mailto:sourim.banerjee10@gmail.com)
 
 
 LinkedIn : [Sourim Banerjee](https://www.linkedin.com/in/sourim-banerjee10/)
