@@ -71,6 +71,10 @@ code {
     margin-bottom: 60px;
     overflow: hidden; // clearfix for floats
     
+    .navbar-left {
+        float: left;
+    }
+    
     ul {
         display: inline-block;
         margin: 0;
@@ -103,29 +107,24 @@ code {
         font-size: 32px;
         font-weight: 400;
         color: $text-primary;
-        display: inline-block;
-        vertical-align: middle;
+        display: block;
         letter-spacing: 0;
         font-family: Georgia, "Times New Roman", Times, serif;
+        margin-bottom: 8px;
         &:hover {
             color: $text-primary;
         }
     }
     
-    img {
-        display: none;
-    }
-}
-
-// Hero Section
-.hero {
-    padding: 80px 0 60px 0;
-    
-    .subtitle {
+    .site-tagline {
         font-size: 18px;
         color: $text-secondary;
-        line-height: 1.6;
-        margin: 0;
+        font-family: "Courier New", Courier, monospace;
+        line-height: 1.4;
+    }
+    
+    img {
+        display: none;
     }
 }
 
@@ -302,14 +301,6 @@ code {
         max-width: $med-width;
         padding: 0 20px;
     }
-    
-    .hero {
-        padding: 60px 0;
-        
-        .subtitle {
-            font-size: 17px;
-        }
-    }
 }
 
 @media (max-width: 768px) {
@@ -321,10 +312,15 @@ code {
     .navbar {
         padding: 30px 0;
         
+        .navbar-left {
+            float: none;
+            margin-bottom: 20px;
+        }
+        
         ul {
             margin-left: 0;
             float: none;
-            margin-top: 16px;
+            margin-top: 0;
         }
         
         li {
@@ -338,6 +334,10 @@ code {
         
         .site-title {
             font-size: 28px;
+        }
+        
+        .site-tagline {
+            font-size: 16px;
         }
     }
     
@@ -361,22 +361,24 @@ code {
 }
 
 @media (max-width: 640px) {
-    .hero {
-        padding: 40px 0;
-        
-        .subtitle {
-            font-size: 16px;
-        }
-    }
-    
     .navbar {
         text-align: left;
         padding: 30px 0;
         
+        .navbar-left {
+            float: none;
+            margin-bottom: 20px;
+        }
+        
         .site-title {
             display: block;
-            margin-bottom: 20px;
+            margin-bottom: 8px;
             font-size: 26px;
+        }
+        
+        .site-tagline {
+            font-size: 15px;
+            margin-bottom: 16px;
         }
         
         ul {
@@ -391,7 +393,7 @@ code {
             margin: 0 16px 0 0;
             
             a {
-                font-size: 16px;
+                font-size: 15px;
             }
         }
         
