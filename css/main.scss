@@ -270,28 +270,9 @@ code {
     border-top: 1px solid $border-color;
     color: $text-secondary;
     
-    .footer-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
-    
-    .footer-icon {
-        width: 48px;
-        height: 48px;
-        display: block;
-    }
-    
-    .footer-links {
-        display: flex;
-        align-items: center;
-        gap: 16px;
-    }
-    
     a {
         color: $text-secondary;
-        margin: 0 4px;
+        margin: 0 8px;
         transition: color 0.2s ease;
         
         &:hover {
