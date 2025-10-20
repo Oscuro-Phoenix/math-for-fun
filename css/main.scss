@@ -3,14 +3,14 @@
 ---
 // Customization Variables
 
-$accent: #2563eb;
-$accent-hover: #1d4ed8;
-$background: #FFFFFF;
-$text-primary: #1a1a1a;
-$text-secondary: #666666;
-$text-light: #999999;
-$card-hover: #f8fafc;
-$border-color: #e5e7eb;
+$accent: #CC5500;
+$accent-hover: #AA4400;
+$background: #FFFFDD;
+$text-primary: #2a2a2a;
+$text-secondary: #5a5a5a;
+$text-light: #8a8a8a;
+$card-hover: #FFFBEB;
+$border-color: #d4c4a8;
 
 $max-width: 1200px;
 $content-width: 900px;
@@ -21,8 +21,8 @@ $small-width: 640px;
 
 body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    background-color: $background;
+    font-family: "Courier New", Courier, "Lucida Console", Monaco, monospace;
+    background-color: #FFFFDD;
     min-height: 100%;
     color: $text-primary;
     font-size: 16px;
@@ -42,11 +42,12 @@ hr {
     border-top: 1px solid $border-color;
 }
 code {
-    background-color: #f3f4f6;
-    color: #1f2937;
+    background-color: #f5eed6;
+    color: #3d3d3d;
     padding: 2px 6px;
-    border-radius: 4px;
-    font-size: 0.9em;
+    border-radius: 3px;
+    font-size: 0.95em;
+    font-family: "Courier New", Courier, monospace;
 }
 
 // divs
@@ -227,17 +228,19 @@ code {
             justify-content: center;
             
             a {
-                background: $card-hover;
+                background: #f5eed6;
                 color: $text-secondary;
                 padding: 4px 12px;
-                border-radius: 16px;
+                border-radius: 3px;
                 font-size: 14px;
                 font-weight: 500;
                 transition: all 0.2s ease;
+                border: 1px solid $border-color;
                 
                 &:hover {
                     background: $accent;
-                    color: white;
+                    color: #FFFFDD;
+                    border-color: $accent;
                 }
             }
         }
@@ -466,13 +469,13 @@ code {
     }
     
     blockquote {
-        border-left: 4px solid $accent;
+        border-left: 3px solid $accent;
         margin: 1.5em 0;
         padding: 12px 20px;
-        background: $card-hover;
+        background: #f5eed6;
         font-style: italic;
         color: $text-secondary;
-        border-radius: 4px;
+        border-radius: 0;
     }
     
     .profile-picture {
@@ -543,34 +546,31 @@ table {
     margin: 32px 0;
     border-collapse: collapse;
     width: 100%;
-    border-radius: 8px;
-    overflow: hidden;
     border: 1px solid $border-color;
 }
 
 table tr {
     border-bottom: 1px solid $border-color;
-    background-color: white;
+    background-color: $background;
     transition: background-color 0.2s ease;
 }
 
 table tr:nth-child(2n) {
-    background-color: $card-hover;
+    background-color: #f5eed6;
 }
 
 table tr:hover {
-    background-color: #f1f5f9;
+    background-color: #f0e5c8;
 }
 
 table tr th {
     font-weight: 600;
-    background-color: #f8fafc;
+    background-color: #f5eed6;
     text-align: left;
     padding: 12px 16px;
     color: $text-primary;
     font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
+    border-bottom: 2px solid $border-color;
 }
 
 table tr td {
@@ -643,9 +643,9 @@ table tr:last-child {
             max-width: 700px;
             margin: 40px auto;
             padding: 24px 32px;
-            background: $card-hover;
-            border-left: 4px solid $accent;
-            border-radius: 8px;
+            background: #f5eed6;
+            border-left: 3px solid $accent;
+            border-radius: 0;
             
             h3 {
                 font-size: 18px;
@@ -663,7 +663,7 @@ table tr:last-child {
                 padding: 0;
                 border: none;
                 background: none;
-                font-size: 18px;
+                font-size: 17px;
                 line-height: 1.6;
                 color: $text-primary;
             }
@@ -680,9 +680,9 @@ table tr:last-child {
             max-width: 700px;
             margin: 32px auto;
             padding: 24px;
-            background: white;
+            background: #f5eed6;
             border: 1px solid $border-color;
-            border-radius: 8px;
+            border-radius: 0;
             
             h3 {
                 font-size: 18px;
