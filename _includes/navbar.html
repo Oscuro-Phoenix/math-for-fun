@@ -1,19 +1,18 @@
 <div class="navbar">
-    <img style="width:10%;" src="{{ site.url }}{{ site.baseurl}}/assets/home.gif">
-    <a class="site-title" href="{{ site.url }}{{ site.baseurl}}/">{{ site.subtitle }}</a>
+    <a class="site-title" href="{{ site.url }}{{ site.baseurl}}/">
+        <img style="width:32px; height:32px;" src="{{ site.url }}{{ site.baseurl}}/assets/home.gif">
+        {{ site.subtitle }}
+    </a>
     <ul class="pull-right">
         {% for x in site.navbar %}
-        <li class="pull-left">
+        <li>
             {% if x.absolute-link %}
                 {% assign x-url = x.absolute-link %}
             {% else %}
                 {% assign x-url = site.url | append: site.baseurl | append: "/" | append: x.link %}
             {% endif %}
             <a href="{{ x-url }}">{{ x.name }}</a>
-            {% if forloop.last == false %}/{% endif %}
         </li>
         {% endfor %}
     </ul>
-
-    <hr>
 </div>
