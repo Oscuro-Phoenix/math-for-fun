@@ -107,12 +107,21 @@ code {
         font-size: 32px;
         font-weight: 400;
         color: $text-primary;
-        display: block;
+        display: flex;
+        align-items: center;
         letter-spacing: 0;
         font-family: Georgia, "Times New Roman", Times, serif;
         margin-bottom: 8px;
         &:hover {
             color: $text-primary;
+        }
+        
+        .site-icon {
+            width: 36px;
+            height: 36px;
+            margin-right: 12px;
+            display: inline-block;
+            vertical-align: middle;
         }
     }
     
@@ -121,10 +130,6 @@ code {
         color: $text-secondary;
         font-family: "Courier New", Courier, monospace;
         line-height: 1.4;
-    }
-    
-    img {
-        display: none;
     }
 }
 
@@ -334,6 +339,11 @@ code {
         
         .site-title {
             font-size: 28px;
+            
+            .site-icon {
+                width: 34px;
+                height: 34px;
+            }
         }
         
         .site-tagline {
@@ -371,9 +381,16 @@ code {
         }
         
         .site-title {
-            display: block;
+            display: flex;
+            align-items: center;
             margin-bottom: 8px;
             font-size: 26px;
+            
+            .site-icon {
+                width: 32px;
+                height: 32px;
+                margin-right: 10px;
+            }
         }
         
         .site-tagline {
@@ -395,10 +412,6 @@ code {
             a {
                 font-size: 15px;
             }
-        }
-        
-        img {
-            display: none;
         }
     }
     
