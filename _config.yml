@@ -16,7 +16,7 @@ sass:
     sass_dir: css
 
 navbar:
- - name: "About the Authors"
+ - name: "About Us"
    link: "about"
  - name: "Posts"
    absolute-link: "https://oscuro-phoenix.github.io/math-for-fun"
