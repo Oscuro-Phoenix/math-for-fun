@@ -109,87 +109,69 @@ code {
 
 // Hero Section
 .hero {
-    text-align: center;
-    padding: 80px 20px;
-    margin-bottom: 60px;
-    
-    h1 {
-        font-size: 48px;
-        font-weight: 700;
-        margin: 0 0 20px 0;
-        letter-spacing: -1px;
-        line-height: 1.2;
-    }
+    padding: 80px 0 60px 0;
     
     .subtitle {
-        font-size: 20px;
+        font-size: 18px;
         color: $text-secondary;
-        max-width: 600px;
-        margin: 0 auto;
         line-height: 1.6;
-    }
-}
-
-// Posts Grid
-.posts-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-    gap: 32px;
-    margin-bottom: 80px;
-    padding: 0 20px;
-}
-
-.post-card {
-    background: white;
-    border: 1px solid $border-color;
-    border-radius: 12px;
-    overflow: hidden;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    display: flex;
-    flex-direction: column;
-    
-    &:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
-    }
-    
-    .title {
-        color: $text-primary;
-        font-size: 22px;
-        font-weight: 600;
-        padding: 24px 24px 12px 24px;
-        display: block;
-        line-height: 1.4;
         margin: 0;
     }
+}
+
+// Posts List
+.posts-list {
+    max-width: 100%;
+    margin-bottom: 80px;
+}
+
+.post-item {
+    display: flex;
+    align-items: baseline;
+    gap: 40px;
+    padding: 24px 0;
+    border-bottom: 1px solid $border-color;
+    position: relative;
+    padding-left: 40px;
     
-    .subtitle {
-        color: $text-secondary;
-        font-size: 15px;
-        padding: 0 24px;
-        line-height: 1.5;
-        flex-grow: 1;
+    &:before {
+        content: '•';
+        position: absolute;
+        left: 0;
+        font-size: 24px;
+        color: $text-primary;
+        line-height: 1;
     }
     
-    .details {
-        padding: 16px 24px 24px 24px;
-        color: $text-light;
-        font-size: 14px;
-        border-top: 1px solid $border-color;
-        margin-top: 16px;
+    .post-content {
+        flex: 1;
+        min-width: 0;
         
-        b {
-            font-weight: 500;
-        }
-        
-        a {
-            color: $text-secondary;
-            font-weight: 500;
+        .post-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: $text-primary;
+            display: block;
+            margin-bottom: 8px;
+            line-height: 1.4;
             
             &:hover {
                 color: $accent;
             }
         }
+        
+        .post-subtitle {
+            font-size: 15px;
+            color: $text-secondary;
+            line-height: 1.5;
+        }
+    }
+    
+    .post-date {
+        flex-shrink: 0;
+        font-size: 15px;
+        color: $text-secondary;
+        white-space: nowrap;
     }
 }
 
@@ -309,20 +291,11 @@ code {
         padding: 0 20px;
     }
     
-    .posts-grid {
-        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-        gap: 24px;
-    }
-    
     .hero {
-        padding: 60px 20px;
-        
-        h1 {
-            font-size: 36px;
-        }
+        padding: 60px 0;
         
         .subtitle {
-            font-size: 18px;
+            font-size: 17px;
         }
     }
 }
@@ -330,11 +303,7 @@ code {
 @media (max-width: 768px) {
     .container {
         max-width: 100%;
-    }
-    
-    .posts-grid {
-        grid-template-columns: 1fr;
-        padding: 0 16px;
+        padding: 0 20px;
     }
     
     .navbar {
@@ -353,15 +322,25 @@ code {
     .page-title {
         font-size: 32px;
     }
+    
+    .post-item {
+        flex-direction: column;
+        gap: 12px;
+        padding: 20px 0 20px 32px;
+        
+        &:before {
+            font-size: 20px;
+        }
+        
+        .post-date {
+            font-size: 14px;
+        }
+    }
 }
 
 @media (max-width: 640px) {
     .hero {
-        padding: 40px 16px;
-        
-        h1 {
-            font-size: 28px;
-        }
+        padding: 40px 0;
         
         .subtitle {
             font-size: 16px;
@@ -394,8 +373,16 @@ code {
         }
     }
     
-    .post-card .title {
-        font-size: 20px;
+    .post-item {
+        padding-left: 24px;
+        
+        .post-title {
+            font-size: 17px;
+        }
+        
+        .post-subtitle {
+            font-size: 14px;
+        }
     }
 }
 
