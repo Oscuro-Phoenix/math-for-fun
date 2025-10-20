@@ -2,9 +2,14 @@
 <div class="footer">
     {% if page.url == "/" and site.footer_only_homepage %}
         <hr>
-        <a href="{{ site.footer_url }}">{{ site.footer_text }}</a>
-        <a href="https://github.com/Oscuro-Phoenix/math-for-fun"><i class="fa fa-github-square" style="font-size:2em"></i></a>
-        <a href="https://www.linkedin.com/company/math-for-fun"><i class="fa fa-linkedin-square" style="font-size:2em"></i></a>
+        <div class="footer-content">
+            <img class="footer-icon" src="{{ site.url }}{{ site.baseurl}}/assets/home.gif" alt="OCIP Icon">
+            <div class="footer-links">
+                <a href="{{ site.footer_url }}">{{ site.footer_text }}</a>
+                <a href="https://github.com/Oscuro-Phoenix/math-for-fun"><i class="fa fa-github-square" style="font-size:2em"></i></a>
+                <a href="https://www.linkedin.com/company/math-for-fun"><i class="fa fa-linkedin-square" style="font-size:2em"></i></a>
+            </div>
+        </div>
     {% else %}
         <br>
     {% endif %}

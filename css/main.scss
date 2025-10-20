@@ -107,21 +107,12 @@ code {
         font-size: 32px;
         font-weight: 400;
         color: $text-primary;
-        display: flex;
-        align-items: center;
+        display: block;
         letter-spacing: 0;
         font-family: Georgia, "Times New Roman", Times, serif;
         margin-bottom: 8px;
         &:hover {
             color: $text-primary;
-        }
-        
-        .site-icon {
-            width: 36px;
-            height: 36px;
-            margin-right: 12px;
-            display: inline-block;
-            vertical-align: middle;
         }
     }
     
@@ -279,9 +270,28 @@ code {
     border-top: 1px solid $border-color;
     color: $text-secondary;
     
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .footer-icon {
+        width: 48px;
+        height: 48px;
+        display: block;
+    }
+    
+    .footer-links {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+    
     a {
         color: $text-secondary;
-        margin: 0 8px;
+        margin: 0 4px;
         transition: color 0.2s ease;
         
         &:hover {
@@ -339,11 +349,6 @@ code {
         
         .site-title {
             font-size: 28px;
-            
-            .site-icon {
-                width: 34px;
-                height: 34px;
-            }
         }
         
         .site-tagline {
@@ -381,16 +386,9 @@ code {
         }
         
         .site-title {
-            display: flex;
-            align-items: center;
+            display: block;
             margin-bottom: 8px;
             font-size: 26px;
-            
-            .site-icon {
-                width: 32px;
-                height: 32px;
-                margin-right: 10px;
-            }
         }
         
         .site-tagline {
